@@ -1,4 +1,4 @@
-Changelog
+# Changelog
 ===============
 
 All notable changes to this project will be documented in this file.
@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 + Official release file for Minecraft version 1.18.2
 
 
-[1.18.2-1.0.0b] - 2024-05-20*
+## [1.18.2-1.0.0b] - 2024-05-27
 
 ### Added
 
@@ -27,6 +27,7 @@ All notable changes to this project will be documented in this file.
 	* Any player advancement is marked completed for all players in the game
 	* Team players use the same bingo card in the game
 	* Team player advancement is marked completed for all players on the team
+	* Generate player loot on square completed and game winners
 + Custom collectibles easy datapack
 + Custom collectibles medium datapack
 + Custom collectibles hard datapack
@@ -40,7 +41,7 @@ All notable changes to this project will be documented in this file.
 + Bingo Winners screen
 + Bingo Start screen
 
-- Key Bindings
+#### Key Bindings
 + View Bingo card key `'o'`
 + View Start and Config key `'b'`
 
@@ -49,14 +50,13 @@ All notable changes to this project will be documented in this file.
 `bingo:bingo_card`
 + right click / view card
 
-### Minecraft Commands
+#### Minecraft Commands
 
 + `bingo start` starts the game
-+ `bingo reset` cancels any game in progress
-+ `bingo restart` restarts the game
++ `bingo stop` cancels any game in progress
++ `bingo reset` same as `bingo stop` to cancel a game in progress
 + `bingo add -player-` adds the player to the list of active players
 + `bingo start` starts the game for all active players
-+ `bingo reset` renamed to `bingo stop` to cancel a game in progress
 + `bingo add all` adds all players in the session to the list of active players
 + `bingo start all` starts the game for all players in the session
 + `bingo players` lists all active players in the session
@@ -64,6 +64,8 @@ All notable changes to this project will be documented in this file.
 + `bingo join` adds the player to the list of active players
 + `bingo join red|blue` adds the player to the list of active team players
 + `bingo quit` cancels the player's game in progress
++ `bingo kick -player-` removes a player from the game (requires op privileges)
++ `bingo loot` toggles game loot generation on or off
 
 
 [1.18.2-1.0.0b]: https://github.com/J78FDK42/Bingo/raw/1.18.2-1.0b/bingo-1.18.2-1.0.0b.jar
