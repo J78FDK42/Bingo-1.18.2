@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file.
 
 + Game Mode Tab to Bingo Game Screen
 + Unlocks Tab to Bingo Game Screen
-+ Bingo command translations
++ Bingo language translations
 
 #### Files
 
@@ -148,5 +148,5 @@ Download Language Specification: [en_us.json](https://github.com/J78FDK42/Bingo-
 + `bingo loot` toggles game loot generation on or off
 
 
-[0.2.0]: https://www.curseforge.com/minecraft/mc-mods/advancement-bingo-game/files/5375516/changelog
+[0.2.0]: https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/bingo-0.2.0-forge-1.18.2.jar
 [1.18.2-1.0.0b]: https://www.curseforge.com/minecraft/mc-mods/advancement-bingo-game/files/5375516/changelog
