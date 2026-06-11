@@ -24,7 +24,7 @@ All notable changes to this project will be documented in this file.
 
 + Fabric version 1.18.2
 
-Download Language Specification: [en_us.json](https://github.com/J78FDK42/Bingo/raw/1.18.2-2.0b/en_us.json)
+Download Language Specification: [en_us.json](https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/en_us.json)
  
 #### Game Mode Tab
 
