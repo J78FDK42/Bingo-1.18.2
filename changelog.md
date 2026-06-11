@@ -8,7 +8,87 @@ All notable changes to this project will be documented in this file.
 
 ### Added 
 
-+ Official release file for Minecraft version 1.18.2
++ Official release file for Minecraft version 1.18.2 
+
+## [0.2.0] - 2026-06-15 : Beta v2 Update!
+
+### Added
+
++ Game Mode Tab to Bingo Game Screen
++ Unlocks Tab to Bingo Game Screen
++ Bingo language translations
+
+#### Files
+
++ Bingo client/server save files
++ Bingo French version language file
+
+Download Language Specification: [en_us.json](https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/en_us.json)
+ 
+#### Game Mode Tab
+
++ Game mode Bingo (standard bingo)
++ Game mode Blackout (all squares)
++ Game mode Twenty (20 squares, no bingo)
+
+#### Unlocks Tab
+
++ Advancements
++ Recipes
+
+#### Advancements Tab
+
++ Vanilla
++ Modded
++ Custom
+
+#### Recipes Tab
+
++ Vanilla
++ Modded
++ Custom
+
+### Changed
+
++ Forward compatible version name/number with Gradle
+
+#### Join Tab
+
++ Changed to Teams Tab
+
+#### Cards Tab 
+
++ Toggle button Personal
++ Toggle button Team
++ Toggle button Global
+
+#### Progress Tab 
+
++ Toggle button Personal
++ Toggle button Team
++ Toggle button Global
+
+#### Files
+
++ Bingo game files
++ Bingo networking files
++ Bingo key binding files
++ Bingo save files
+
+### Removed
+
++ Bingo config files 
++ Bingo player capabilities save file
+
+### Fixed
+
++ Player saved data lost on player death
++ Advancement progress saved after being cleared
++ Team progress updates correctly
++ Global progress updates correctly
++ Team cards issued correctly
++ Global cards issued correctly
++ Translatable text issues
 
 
 ## [1.18.2-1.0.0b] - 2024-05-27
@@ -68,4 +148,5 @@ All notable changes to this project will be documented in this file.
 + `bingo loot` toggles game loot generation on or off
 
 
-[1.18.2-1.0.0b]: https://github.com/J78FDK42/Bingo/raw/1.18.2-1.0b/bingo-1.18.2-1.0.0b.jar
+[0.2.0]: https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/bingo-0.2.0-forge-1.18.2.jar
+[1.18.2-1.0.0b]: https://www.curseforge.com/minecraft/mc-mods/advancement-bingo-game/files/5375516/changelog
