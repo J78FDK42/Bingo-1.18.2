@@ -15,14 +15,13 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 + Game Mode Tab to Bingo Game Screen
++ Unlocks Tab to Bingo Game Screen
 + Bingo command translations
 
 #### Files
 
 + Bingo client/server save files
 + Bingo French version language file
-
-+ Fabric version 1.18.2
 
 Download Language Specification: [en_us.json](https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/en_us.json)
  
