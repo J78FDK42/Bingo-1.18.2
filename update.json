@@ -1,10 +1,12 @@
 {
-	"homepage": "https://www.curseforge.com/minecraft/mc-mods/advancement-bingo-game",
+	"homepage": "https://github.com/J78FDK42/Bingo/blob/main/faqs.md",
 	"1.18.2": {
-		"1.18.2-1.0.0b": "https://www.curseforge.com/minecraft/mc-mods/advancement-bingo-game/files/5375516/changelog"
+		"0.2.0": "https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-0.2.0/bingo-0.2.0-forge-1.18.2.jar", 
+		"1.18.2-1.1.0b": "https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-1.0b/bingo-forge-1.18.2-0.1.1b.jar", 
+		"1.18.2-1.0.0b": "https://github.com/J78FDK42/Bingo-1.18.2/blob/Version-1.0b/bingo-1.18.2-1.0.0b.jar"
 	},
 	"promos": {
-		"1.18.2-latest": "1.18.2-1.0.0b",
-		"1.18.2-recommended": "1.18.2-1.0.0b"
+		"1.18.2-latest": "0.2.0",
+		"1.18.2-recommended": "0.2.0"
 	}
 }
